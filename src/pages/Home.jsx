@@ -9,29 +9,24 @@ import Mask from "../components/Mask";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 
-
 function Home() {
+    useEffect(() => {
+        Aos.init();
+    }, []);
 
-  useEffect(() => {
-    Aos.init();
-  }, []);
-
-  return (
-    <>
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <div className="container mx-auto">
-      <Product></Product>
-        <Carousel></Carousel>
-        <Mask></Mask>
-        <Card></Card>
-      </div>
-      <Footer></Footer>
-
-
-    </>
-
-  );
+    return (
+        <>
+            <Navbar></Navbar>
+            <Hero></Hero>
+            <div className="container mx-auto">
+                <Product></Product>
+                <Carousel></Carousel>
+                <Mask></Mask>
+                <Card></Card>
+            </div>
+            <Footer></Footer>
+        </>
+    );
 }
 
 export default Home;
