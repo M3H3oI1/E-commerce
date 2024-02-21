@@ -47,7 +47,7 @@ function Product() {
 
 
         <div data-aos="zoom-in-up" data-aos-duration="1000" className="rounded-xl overflow-hidden glass">
-          <figure><img src="public/mask/s1.webp" alt="car!" /></figure>
+          <figure><img src="/mask/s1.webp" alt="car!" /></figure>
           <div className="card-body items-center">
             <h2 className="card-title">Life hack</h2>
             <p>How to park your car at your garage?</p>
