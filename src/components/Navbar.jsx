@@ -8,7 +8,7 @@ function Navbar() {
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar mx-5">
               <div className="w-10 rounded-full">
-                <Link to={"/"} ><img src="/public/logo/fevicon.png"/></Link>
+                <Link to={"/"} ><img src="/logo/fevicon.png"/></Link>
               </div>
             </label>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3  p-2 shadow bg-base-100 rounded-box w-52">
@@ -33,7 +33,7 @@ function Navbar() {
 
         </div>
         <div data-aos="flip-right" data-aos-duration="1000" className="navbar-center">
-          <Link to={"/"}><img src="/public/logo/logo.png" className=" h-20" alt=""/></Link>
+          <Link to={"/"}><img src="/logo/logo.png" className=" h-20" alt=""/></Link>
         </div>
         <div data-aos="fade-left" data-aos-duration="1000" className="navbar-end  px-5">
 

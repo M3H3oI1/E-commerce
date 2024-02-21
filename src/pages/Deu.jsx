@@ -9,7 +9,7 @@ function Deu() {
 
             <div className="bg-white rounded-lg shadow-lg p-6">
     
-    <img src="/public/logo/fevicon.png" alt="Contact Image" className=" mx-auto rounded-lg mb-4"/>
+    <img src="/logo/fevicon.png" alt="Contact Image" className=" mx-auto rounded-lg mb-4"/>
 
    
     <div className="mb-4">
